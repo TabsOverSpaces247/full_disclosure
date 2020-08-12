@@ -1,0 +1,266 @@
+/* Full Disclosure Project CSS
+	Author: Serghie
+	Date: 08/05/2020 */
+
+/* ===================
+	    Base Styles 
+   =================== */
+
+/* Header Styles */
+
+header {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header img {
+	margin-top: 20px;
+}
+
+header img:hover {
+	cursor: pointer;
+}
+
+a img {
+   	margin-right: auto;
+   	margin-left: auto;
+   	width: 65%;
+}
+
+/* Nav Styles */
+
+nav {
+	font-family: 'Chilanka', cursive;
+	font-weight: bold;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 95%;
+}
+
+ul#topLinks li{
+	display: block;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul#topLinks a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 20px;
+	border-radius: 30px;
+	font-size: 21px;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+	float: left;
+}
+
+ul#topLinks a:hover {
+	background-color: rgb(255, 239, 92);
+	cursor: pointer;
+}
+
+/* Slideshow Styles */
+
+div#slideshowContainer {
+	width: 85%;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px dotted white;
+}
+
+div#imageHolder {
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div img {
+	width: 100%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1#thisWeek {
+	font-size: 4em;
+	margin-top: 10px;
+	margin-bottom: 2px;
+	text-shadow: 5px 5px 5px white;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1#thisWeek {
+	clear: both;
+}
+
+h1#hangoutSpot {
+	font-size: 4em;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-shadow: 5px 5px 5px white;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1#hangoutSpot {
+	clear: both;
+}
+
+a#fullSchedule {
+	font-family: 'Chilanka', cursive;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	border-radius: 30px;
+	font-size: 20px;
+	background-color: white;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	display: block;
+	box-shadow: 3px 3px 3px gray;
+	width: 300px;
+	height: 40px;
+}
+
+a#fullSchedule:hover {
+	background-color: rgb(255, 239, 92);
+	cursor: pointer;
+}
+
+/* Body Styles */
+
+body {
+	background-color: rgb(0, 245, 188);
+	width: 100%;
+	overflow-x: hidden;
+}
+
+section {
+	background-color: rgb(255, 187, 153);
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Column Styles */
+
+div#columns {
+	column-count: 3;
+	column-gap: 30px;
+	margin: 20px;
+}
+
+h3 {
+	font-family: 'Gaegu', cursive;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+p {
+	font-family: 'Chilanka', cursive;
+}
+
+/* Footer Styles */
+
+footer {
+	text-align: center;
+	font-family: 'Chilanka', cursive;
+}
+
+footer a:link {
+	color: blue;
+}
+
+footer a:hover {
+	color: darkorange;
+}
+
+/* ==========================
+	Mobile Styles (0-480 px)
+   ========================== */
+
+   @media only screen and (max-width: 480px) {
+
+   	div#slideshowContainer {
+   		display: none;
+   	}
+
+   	h1#thisWeek {
+   		display: none;
+   	}
+
+   	a#fullSchedule {
+   		display: none;
+   	}
+
+   	div#columns {
+   		column-count: 1;
+   	}
+
+  } /* End of mobile styles
+
+/* ====================================
+	 Tablet Styles (481 - 769px)
+   ==================================== */
+
+   @media only screen and (max-width: 769px) {
+
+   	div#slideshowContainer {
+   		display: none;
+   	}
+
+   div#columns {
+   		column-count: 1;
+   	} 
+
+   	h1#thisWeek {
+   		display: none;
+   	}
+
+   	a#fullSchedule {
+   		display: none;
+   	}
+
+   	div#columns {
+   		column-count: 1;
+   		width: 70%;
+   		margin-left: auto;
+   		margin-right: auto;
+   	}
+
+  } /* End of tablet styles
+
+/* =====================
+	 Slideshow Styles
+   =====================*/
+
+   @media only screen and (max-width: 1180px) {
+
+   	div#slideshowContainer {
+   		display: none;
+   	}
+
+   	a#fullSchedule {
+   		display: none;
+   	}
+
+   	h1#thisWeek {
+   		display: none;
+   	}
+
+  } /* End of slideshow styles

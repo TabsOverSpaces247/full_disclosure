@@ -1,0 +1,157 @@
+/* Full Disclosure Project CSS
+	Author: Serghie
+	Date: 08/05/2020 */
+
+/* Header Styles */
+
+header {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header img {
+	margin-top: 20px;
+}
+
+header img:hover {
+	cursor: pointer;
+}
+
+a img {
+   	margin-right: auto;
+   	margin-left: auto;
+   	width: 65%;
+}
+
+/* Nav Styles */
+
+nav {
+	font-family: 'Chilanka', cursive;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 95%;
+}
+
+ul#topLinks li{
+	display: block;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+ul#topLinks a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin: 20px;
+	border-radius: 30px;
+	font-size: 21px;
+	float: left;
+	color: black;
+	text-decoration: none;
+	background-color: white;
+}
+
+ul#topLinks a:hover {
+	background-color: rgb(255, 239, 92);
+	cursor: pointer;
+}
+
+/* Body Styles */
+
+body {
+	background-color: rgb(0, 245, 188);
+	width: 100%;
+	overflow-x: hidden;
+}
+
+section {
+	background-color: rgb(255, 187, 153);
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+/* Schedule Styles */
+
+h1#musicSchedule {
+	font-size: 4em;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-shadow: 5px 5px 5px white;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1#musicSchedule {
+   	clear: both;
+}
+
+table {
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	border: 10px double coral;
+	width: 85%;
+	padding-right: 0px;
+	display: block;
+	position: relative;
+	overflow: auto;
+}
+
+tr {
+	width:100%;
+}
+
+th.times { 
+	width: 10%;
+}
+
+td#event {
+	background-color: rgb(212, 136, 252);
+	width: 13%;
+	text-align: center;
+}
+
+th {
+	font-family: 'Chilanka', cursive;
+	font-weight: bold;
+	text-align: center;
+	background-color: lightgray;
+	width: 13%;
+	padding: 13px;
+}
+
+td {
+	text-align: center;
+	font-family: 'Chilanka', cursive;
+}
+
+/* Footer Styles */
+
+footer {
+	text-align: center;
+	font-family: 'Chilanka', cursive;
+}
+
+footer a:link {
+	color: blue;
+}
+
+footer a:hover {
+	color: darkorange;
+}
+
+@media only screen and (max-width: 830px) {
+	p#scroll {
+		display: inline-block;
+		font-size: 15px;
+		font-family: 'Chilanka', cursive;
+	}
+}
